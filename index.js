@@ -3,4 +3,4 @@
                 scope: '/'
             }).then(() => {
             location.reload();
-            }
+            })
