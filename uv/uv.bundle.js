@@ -35154,11 +35154,11 @@ __webpack_require__.r(__webpack_exports__);
 const xor = {
     encode(str){
         if (!str) return str;
-        return encodeURIComponent(str.replace("https://ixl.com/"), "/");
+        return str.replace("https://ixl.com/", "/");
     },
     decode(str){
         if (!str) return str;
-        return decodeURIComponent("https://ixl.com/" + str);
+        return "https://ixl.com/" + str;
     },
 };
 
